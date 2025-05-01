@@ -8,29 +8,29 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="test.fld/filelist.xml">
+<link rel=File-List href="index.fld/filelist.xml">
 <!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>Microsoft Office User</o:Author>
   <o:LastAuthor>Microsoft Office User</o:LastAuthor>
-  <o:Revision>1</o:Revision>
+  <o:Revision>2</o:Revision>
   <o:TotalTime>0</o:TotalTime>
   <o:Created>2025-05-01T09:15:00Z</o:Created>
-  <o:LastSaved>2025-05-01T09:15:00Z</o:LastSaved>
+  <o:LastSaved>2025-05-01T10:59:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>38</o:Words>
-  <o:Characters>222</o:Characters>
-  <o:Lines>1</o:Lines>
-  <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>259</o:CharactersWithSpaces>
+  <o:Words>1377</o:Words>
+  <o:Characters>7854</o:Characters>
+  <o:Lines>65</o:Lines>
+  <o:Paragraphs>18</o:Paragraphs>
+  <o:CharactersWithSpaces>9213</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=themeData href="test.fld/themedata.thmx">
-<link rel=colorSchemeMapping href="test.fld/colorschememapping.xml">
+<link rel=themeData href="index.fld/themedata.thmx">
+<link rel=colorSchemeMapping href="index.fld/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:GrammarState>Clean</w:GrammarState>
@@ -752,38 +752,583 @@ div.WordSection1
 
 <p class=MsoNormal>&lt;!DOCTYPE html&gt;<o:p></o:p></p>
 
-<p class=MsoNormal>&lt;html lang=&quot;zh&quot;&gt;<o:p></o:p></p>
+<p class=MsoNormal>&lt;html lang=&quot;en&quot;&gt;<o:p></o:p></p>
 
 <p class=MsoNormal>&lt;head&gt;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;meta
-charset=&quot;UTF-8&quot;&gt;<o:p></o:p></p>
+<p class=MsoNormal>&lt;meta charset=&quot;utf-8&quot;&gt;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;meta
-name=&quot;viewport&quot; content=&quot;width=device-width,
-initial-scale=1.0&quot;&gt;<o:p></o:p></p>
+<p class=MsoNormal>&lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width,initial-scale=1,maximum-scale=1&quot;&gt;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;title&gt;<span
-lang=ZH-TW style='font-family:"PMingLiU",serif;mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;
-mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin'>我的網站</span>&lt;/title&gt;<o:p></o:p></p>
+<p class=MsoNormal>&lt;title&gt;Knife Engraving Customiser&lt;/title&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>&lt;link rel=&quot;preconnect&quot;
+href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;<o:p></o:p></p>
+
+<p class=MsoNormal>&lt;link
+href=&quot;https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Lobster&amp;family=Roboto&amp;display=swap&quot;
+rel=&quot;stylesheet&quot;&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>&lt;style&gt;<o:p></o:p></p>
+
+<p class=MsoNormal>:root{--accent:#111;--bg:#fafafa;--border:#ddd;--pad:1rem;--radius:.5rem;}<o:p></o:p></p>
+
+<p class=MsoNormal>*{box-sizing:border-box;}<o:p></o:p></p>
+
+<p class=MsoNormal>body{margin:0;font-family:Roboto,Arial,Helvetica,sans-serif;background:var(--bg);color:#222;}<o:p></o:p></p>
+
+<p class=MsoNormal>h1{text-align:center;margin:.5rem 0 1rem;}<o:p></o:p></p>
+
+<p class=MsoNormal>.container{max-width:1200px;margin:auto;padding:var(--pad);display:flex;flex-direction:column;gap:var(--pad);}<o:p></o:p></p>
+
+<p class=MsoNormal>.section{background:#fff;border:1px solid
+var(--border);border-radius:var(--radius);padding:var(--pad);}<o:p></o:p></p>
+
+<p class=MsoNormal>#product-picker{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.75rem;}<o:p></o:p></p>
+
+<p class=MsoNormal>.product-option{position:relative;}<o:p></o:p></p>
+
+<p class=MsoNormal>.product-option
+input{position:absolute;inset:0;opacity:0;cursor:pointer;}<o:p></o:p></p>
+
+<p class=MsoNormal>.product-option img{width:100%;border:2px solid
+transparent;border-radius:var(--radius);display:block;}<o:p></o:p></p>
+
+<p class=MsoNormal>.product-option
+input:checked+img{border-color:var(--accent);}<o:p></o:p></p>
+
+<p class=MsoNormal>.controls{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;}<o:p></o:p></p>
+
+<p class=MsoNormal>.controls label{font-size:.9rem;margin-right:.25rem;}<o:p></o:p></p>
+
+<p class=MsoNormal>#canvas-wrapper{width:100%;max-width:900px;max-height:600px;margin:auto;overflow:hidden;border:1px
+solid
+var(--border);border-radius:var(--radius);background:#eaeaea;text-align:center;}<o:p></o:p></p>
+
+<p class=MsoNormal>canvas{touch-action:none;display:block;width:100%;height:auto;}<o:p></o:p></p>
+
+<p class=MsoNormal>button{background:var(--accent);color:#fff;border:none;padding:.6rem
+1rem;border-radius:var(--radius);cursor:pointer;font-weight:600;}<o:p></o:p></p>
+
+<p class=MsoNormal>button[disabled]{opacity:.4;cursor:not-allowed;}<o:p></o:p></p>
+
+<p class=MsoNormal>@media(max-width:600px){.controls{flex-direction:column;align-items:flex-start;}}<o:p></o:p></p>
+
+<p class=MsoNormal>&lt;/style&gt;<o:p></o:p></p>
 
 <p class=MsoNormal>&lt;/head&gt;<o:p></o:p></p>
 
 <p class=MsoNormal>&lt;body&gt;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;h1&gt;<span
-lang=ZH-TW style='font-family:"PMingLiU",serif;mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;
-mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin'>歡迎來到我的網站！</span>&lt;/h1&gt;<o:p></o:p></p>
+<p class=MsoNormal>&lt;h1&gt;Knife Engraving Customiser&lt;/h1&gt;<o:p></o:p></p>
 
-<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;p&gt;<span
-lang=ZH-TW style='font-family:"PMingLiU",serif;mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;
-mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin'>這是一個託管在</span>
-GitHub Pages <span lang=ZH-TW style='font-family:"PMingLiU",serif;mso-ascii-font-family:
-Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;
-mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin'>上的簡單網站！</span>&lt;/p&gt;<o:p></o:p></p>
+<p class=MsoNormal>&lt;div class=&quot;container&quot;&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>&lt;!-- 1. PRODUCT
+--&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>&lt;div
+class=&quot;section&quot;&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;h2
+style=&quot;margin-top:0;&quot;&gt;1. Choose your knife&lt;/h2&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;div
+id=&quot;product-picker&quot;&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>      </span>&lt;label
+class=&quot;product-option&quot;&gt;&lt;input type=&quot;radio&quot;
+name=&quot;product&quot; value=&quot;chef.jpg&quot;&gt;&lt;img
+src=&quot;chef.jpg&quot; alt=&quot;Chef knife&quot;&gt;&lt;/label&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>      </span>&lt;label
+class=&quot;product-option&quot;&gt;&lt;input type=&quot;radio&quot;
+name=&quot;product&quot; value=&quot;santoku.jpg&quot;&gt;&lt;img
+src=&quot;santoku.jpg&quot; alt=&quot;Santoku knife&quot;&gt;&lt;/label&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>      </span>&lt;label
+class=&quot;product-option&quot;&gt;&lt;input type=&quot;radio&quot;
+name=&quot;product&quot; value=&quot;paring.jpg&quot;&gt;&lt;img
+src=&quot;paring.jpg&quot; alt=&quot;Paring knife&quot;&gt;&lt;/label&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>      </span>&lt;label
+class=&quot;product-option&quot;&gt;&lt;input type=&quot;radio&quot;
+name=&quot;product&quot; value=&quot;utility.jpg&quot;&gt;&lt;img
+src=&quot;utility.jpg&quot; alt=&quot;Utility knife&quot;&gt;&lt;/label&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>&lt;!-- 2. CONTROLS
+--&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>&lt;div class=&quot;section&quot;&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;h2
+style=&quot;margin-top:0;&quot;&gt;2. Customise text&lt;/h2&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;div
+class=&quot;controls&quot;&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>     
+</span>&lt;div&gt;&lt;label
+for=&quot;engraveText&quot;&gt;Text:&lt;/label&gt;&lt;input
+type=&quot;text&quot; id=&quot;engraveText&quot; placeholder=&quot;Enter
+engraving&quot;&gt;&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>     
+</span>&lt;div&gt;&lt;label for=&quot;fontSelect&quot;&gt;Font:&lt;/label&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>        </span>&lt;select
+id=&quot;fontSelect&quot;&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>          </span>&lt;option
+value=&quot;Montserrat&quot;&gt;Montserrat&lt;/option&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>          </span>&lt;option
+value=&quot;Roboto&quot;&gt;Roboto&lt;/option&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>          </span>&lt;option
+value=&quot;Lobster&quot;&gt;Lobster&lt;/option&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>          </span>&lt;option
+value=&quot;'Times New Roman',serif&quot;&gt;Times New Roman&lt;/option&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>          </span>&lt;option
+value=&quot;Courier New&quot;&gt;Courier New&lt;/option&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>          </span>&lt;option
+value=&quot;Arial&quot;&gt;Arial&lt;/option&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>       
+</span>&lt;/select&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>      </span>&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>     
+</span>&lt;div&gt;&lt;label
+for=&quot;fontSize&quot;&gt;Size:&lt;/label&gt;&lt;input type=&quot;number&quot;
+id=&quot;fontSize&quot; value=&quot;48&quot; min=&quot;10&quot;
+max=&quot;300&quot; style=&quot;width:5rem;&quot;&gt;&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>&lt;!-- 3. PREVIEW
+--&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>&lt;div
+class=&quot;section&quot;&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;h2
+style=&quot;margin-top:0;&quot;&gt;3. Drag the text to position&lt;/h2&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;div
+id=&quot;canvas-wrapper&quot;&gt;&lt;canvas id=&quot;viewCanvas&quot;&gt;&lt;/canvas&gt;&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;div
+style=&quot;text-align:center;margin-top:1rem;&quot;&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>      </span>&lt;button
+id=&quot;generateBtn&quot; disabled&gt;Generate &amp; Download PNG
+files&lt;/button&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>&lt;/div&gt;<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>&lt;script&gt;<o:p></o:p></p>
+
+<p class=MsoNormal>/*
+---------------------------------------------------------------<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   </span>ELEMENTS &amp;
+GLOBAL STATE<o:p></o:p></p>
+
+<p class=MsoNormal>----------------------------------------------------------------*/<o:p></o:p></p>
+
+<p class=MsoNormal>const radios =
+document.querySelectorAll('[name=&quot;product&quot;]');<o:p></o:p></p>
+
+<p class=MsoNormal>const txt<span style='mso-spacerun:yes'>    </span>=
+document.getElementById('engraveText');<o:p></o:p></p>
+
+<p class=MsoNormal>const font<span style='mso-spacerun:yes'>   </span>=
+document.getElementById('fontSelect');<o:p></o:p></p>
+
+<p class=MsoNormal>const fSize<span style='mso-spacerun:yes'>  </span>=
+document.getElementById('fontSize');<o:p></o:p></p>
+
+<p class=MsoNormal>const view<span style='mso-spacerun:yes'>   </span>=
+document.getElementById('viewCanvas');<o:p></o:p></p>
+
+<p class=MsoNormal>const vCtx<span style='mso-spacerun:yes'>   </span>=
+view.getContext('2d');<o:p></o:p></p>
+
+<p class=MsoNormal>const full<span style='mso-spacerun:yes'>   </span>=
+document.createElement('canvas');<span style='mso-spacerun:yes'>      </span>//
+full-rez preview<o:p></o:p></p>
+
+<p class=MsoNormal>const fCtx<span style='mso-spacerun:yes'>   </span>=
+full.getContext('2d');<o:p></o:p></p>
+
+<p class=MsoNormal>const genBtn = document.getElementById('generateBtn');<o:p></o:p></p>
+
+<p class=MsoNormal>const viewportMeta =
+document.querySelector('meta[name=&quot;viewport&quot;]');<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>let img=null, pos={x:0,y:0}, scale=1;<o:p></o:p></p>
+
+<p class=MsoNormal>let dragging=false, offX=0, offY=0, activeId=null;<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>/*
+---------------------------------------------------------------<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   </span>HELPERS<o:p></o:p></p>
+
+<p class=MsoNormal>----------------------------------------------------------------*/<o:p></o:p></p>
+
+<p class=MsoNormal>async function loadImageHighRes(src){<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const blob = await
+fetch(src,{mode:'cors'}).then(r=&gt;r.blob());<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const url<span
+style='mso-spacerun:yes'>  </span>= URL.createObjectURL(blob);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>return new
+Promise(res=&gt;{<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>const i=new
+Image();<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   
+</span>i.onload=()=&gt;{URL.revokeObjectURL(url);res(i);};<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>i.src=url;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>});<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal>function updateScale(){<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const MAX_W=900,
+MAX_H=600;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>scale=Math.min(1,MAX_W/img.naturalWidth,MAX_H/img.naturalHeight);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>view.width =
+img.naturalWidth*scale;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>view.height=
+img.naturalHeight*scale;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>full.width =
+img.naturalWidth;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>full.height=
+img.naturalHeight;<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal>function draw(){<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>if(!img)return;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>/* full-rez */<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>fCtx.clearRect(0,0,full.width,full.height);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>fCtx.drawImage(img,0,0);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>fCtx.font=`${fSize.value}px ${font.value}`; fCtx.fillStyle='#000';
+fCtx.textBaseline='top';<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>fCtx.fillText(txt.value,pos.x,pos.y);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>/* scaled view */<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>vCtx.setTransform(scale,0,0,scale,0,0);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>vCtx.clearRect(0,0,view.width/scale,view.height/scale);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>vCtx.drawImage(img,0,0);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>vCtx.font=`${fSize.value}px ${font.value}`; vCtx.fillStyle='#000';
+vCtx.textBaseline='top';<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>vCtx.fillText(txt.value,pos.x,pos.y);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>vCtx.setTransform(1,0,0,1,0,0);<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal>function textHit(mx,my){<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>vCtx.font=`${fSize.value}px ${font.value}`;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const
+w=vCtx.measureText(txt.value).width*scale;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const
+h=parseInt(fSize.value,10)*scale;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>return
+mx&gt;=pos.x*scale &amp;&amp; mx&lt;=pos.x*scale+w &amp;&amp;
+my&gt;=pos.y*scale &amp;&amp; my&lt;=pos.y*scale+h;<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal>function downloadCanvas(can,filename){<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const
+trigger=url=&gt;{<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>const
+a=document.createElement('a');a.href=url;a.download=filename;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   
+</span>document.body.appendChild(a);a.click();<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   
+</span>setTimeout(()=&gt;{URL.revokeObjectURL(url);a.remove();},100);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>};<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>can.toBlob?can.toBlob(b=&gt;trigger(URL.createObjectURL(b))):trigger(can.toDataURL('image/png'));<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>/*
+---------------------------------------------------------------<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   </span>DRAGGING<span
+style='mso-spacerun:yes'>  </span>(pointer events + touch fallback)<o:p></o:p></p>
+
+<p class=MsoNormal>----------------------------------------------------------------*/<o:p></o:p></p>
+
+<p class=MsoNormal>function startDrag(x,y,id){<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const
+rect=view.getBoundingClientRect();<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const
+mx=x-rect.left, my=y-rect.top;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>if(!textHit(mx,my))
+return;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>dragging=true; activeId=id;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>offX=mx-pos.x*scale;
+offY=my-pos.y*scale;<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal>function moveDrag(x,y){<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>if(!dragging)
+return;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const
+rect=view.getBoundingClientRect();<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>pos.x=(x-rect.left-offX)/scale;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>pos.y=(y-rect.top
+-offY)/scale;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>draw();<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal>function endDrag(id){<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>if(id!==undefined
+&amp;&amp; id!==activeId) return;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>dragging=false;
+activeId=null;<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>/* pointer-event path */<o:p></o:p></p>
+
+<p class=MsoNormal>if('PointerEvent' in window){<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>view.addEventListener('pointerdown',e=&gt;startDrag(e.clientX,e.clientY,e.pointerId));<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>window.addEventListener('pointermove',e=&gt;moveDrag(e.clientX,e.clientY));<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>window.addEventListener('pointerup',e=&gt;endDrag(e.pointerId));<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>window.addEventListener('pointercancel',e=&gt;endDrag(e.pointerId));<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal>/* very old browsers: touch path */<o:p></o:p></p>
+
+<p class=MsoNormal>else{<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>view.addEventListener('touchstart',e=&gt;{<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   
+</span>if(e.touches.length!==1) return;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   
+</span>startDrag(e.touches[0].clientX,e.touches[0].clientY,0);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>},{passive:true});<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>window.addEventListener('touchmove',e=&gt;{<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>    </span>if(!dragging)
+return;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   
+</span>moveDrag(e.touches[0].clientX,e.touches[0].clientY);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>},{passive:true});<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>window.addEventListener('touchend',()=&gt;endDrag(0));<o:p></o:p></p>
+
+<p class=MsoNormal>}<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>/*
+---------------------------------------------------------------<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>   </span>OTHER EVENTS<o:p></o:p></p>
+
+<p class=MsoNormal>----------------------------------------------------------------*/<o:p></o:p></p>
+
+<p class=MsoNormal>radios.forEach(r=&gt;r.addEventListener('change',async
+e=&gt;{<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>img=await
+loadImageHighRes(e.target.value);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>updateScale();<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>pos.x=img.naturalWidth*0.5-100;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>pos.y=img.naturalHeight*0.5-20;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>draw();<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>genBtn.disabled=false;<o:p></o:p></p>
+
+<p class=MsoNormal>}));<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>[txt,font,fSize].forEach(el=&gt;el.addEventListener('input',draw));<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>/* viewport zoom-reset after typing */<o:p></o:p></p>
+
+<p class=MsoNormal>txt.addEventListener('focus',()=&gt;{<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>viewportMeta.content='width=device-width,initial-scale=1,maximum-scale=10';<o:p></o:p></p>
+
+<p class=MsoNormal>});<o:p></o:p></p>
+
+<p class=MsoNormal>txt.addEventListener('blur',()=&gt;{<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>viewportMeta.content='width=device-width,initial-scale=1,maximum-scale=1';<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>setTimeout(()=&gt;window.scrollTo({top:0,left:0}),50);<o:p></o:p></p>
+
+<p class=MsoNormal>});<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>/* EXPORT */<o:p></o:p></p>
+
+<p class=MsoNormal>genBtn.addEventListener('click',()=&gt;{<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>draw();<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>downloadCanvas(full,'preview.png');<span
+style='mso-spacerun:yes'>              </span>// knife + text<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const
+tCan=document.createElement('canvas');<span style='mso-spacerun:yes'>    
+</span>// text only<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>tCan.width=full.width; tCan.height=full.height;<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>const
+tCtx=tCan.getContext('2d');<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>tCtx.font=`${fSize.value}px ${font.value}`; tCtx.fillStyle='#000';
+tCtx.textBaseline='top';<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>  </span>tCtx.fillText(txt.value,pos.x,pos.y);<o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'> 
+</span>downloadCanvas(tCan,'text-only.png');<o:p></o:p></p>
+
+<p class=MsoNormal>});<o:p></o:p></p>
+
+<p class=MsoNormal>&lt;/script&gt;<o:p></o:p></p>
 
 <p class=MsoNormal>&lt;/body&gt;<o:p></o:p></p>
 
